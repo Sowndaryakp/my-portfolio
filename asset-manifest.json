@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.48d9b314.css",
+    "main.js": "/my-portfolio/static/js/main.25c1dd4e.js",
+    "static/js/453.e3dbaf0f.chunk.js": "/my-portfolio/static/js/453.e3dbaf0f.chunk.js",
+    "static/media/smartMetrology1.png": "/my-portfolio/static/media/smartMetrology1.ca8b606b3f39e292195c.png",
+    "static/media/todoreact.png": "/my-portfolio/static/media/todoreact.c2667c73d9d4198e5421.png",
+    "static/media/sowndaryakpportfolio.png": "/my-portfolio/static/media/sowndaryakpportfolio.95459df6382e609584bf.png",
+    "static/media/fa-solid-900.ttf": "/my-portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/gerbindia1.png": "/my-portfolio/static/media/gerbindia1.69d9804e50a1f1a362e3.png",
+    "static/media/fa-brands-400.ttf": "/my-portfolio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/inventoryManagement1.png": "/my-portfolio/static/media/inventoryManagement1.54ec8094179676a294cc.png",
+    "static/media/sowndaryakp.jpg": "/my-portfolio/static/media/sowndaryakp.1e9321819d334bace93c.jpg",
+    "static/media/fa-regular-400.ttf": "/my-portfolio/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/soni.png": "/my-portfolio/static/media/soni.05b67399db143feb2067.png",
+    "static/media/reportTemplate1.png": "/my-portfolio/static/media/reportTemplate1.39a3bb141cdc20756590.png",
+    "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/commingsoon.jpeg": "/my-portfolio/static/media/commingsoon.6a4d256b826550a3abbd.jpeg",
+    "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/my-portfolio/index.html",
+    "main.48d9b314.css.map": "/my-portfolio/static/css/main.48d9b314.css.map",
+    "main.25c1dd4e.js.map": "/my-portfolio/static/js/main.25c1dd4e.js.map",
+    "453.e3dbaf0f.chunk.js.map": "/my-portfolio/static/js/453.e3dbaf0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48d9b314.css",
+    "static/js/main.25c1dd4e.js"
+  ]
+}
