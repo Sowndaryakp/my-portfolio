@@ -26,10 +26,9 @@ function Navbar() {
         <a href="#" className="text-2xl mt-4 font-bold">
           <img src={soniImage} alt="Soni Logo" className="h-28 w-52" />
         </a>
-        <a href="#" className={`text-2xl font-bold ${darkMode ? 'text-gray-300' : 'text-zinc-600'}`} style={{ whiteSpace: 'nowrap' }}>
+        <a href="#" className={`text-2xl font-bold ${darkMode ? 'text-gray-300' : 'text-zinc-600'}`}>
           Sowndarya K P
         </a>
-         &nbsp;
       </div>
 
         <nav className={`bg-${darkMode ? 'black' : 'white'} fixed top-0 left-0 w-64 h-screen z-20 transform ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 md:static md:flex md:items-center md:space-x-8 md:w-auto md:h-auto md:bg-transparent md:translate-x-0`}>
