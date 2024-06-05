@@ -23,13 +23,21 @@ function Navbar() {
     <header className={`fixed top-0 left-0 w-full z-50 bg-${darkMode ? 'black' : 'white'} shadow-lg`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
       <div className="flex-1 flex items-center justify-start -space-x-7">
+      <span className="ml-0"></span> 
         <a href="#" className="text-2xl mt-4 font-bold">
           <img src={soniImage} alt="Soni Logo" className="h-28 w-52" />
         </a>
-        <a href="#" className={`text-2xl font-bold ${darkMode ? 'text-gray-300' : 'text-zinc-600'}`} style={{ whiteSpace: 'nowrap' }}>
-          Sowndarya K P
-        </a>
-         &nbsp;
+        <div className="flex items-center"> {/* Flex container */}
+          <a href="#" className={`text-2xl font-bold ${darkMode ? 'text-gray-300' : 'text-zinc-600'}`} style={{ whiteSpace: 'nowrap' }}>
+            Sowndarya K P
+          </a>
+          <span className="ml-4"></span> {/* Adds a margin of 4 units */}
+          <button onClick={toggleTheme} className={`text-2xl ${darkMode ? 'text-gray-300' : 'text-zinc-600'} text-white transition duration-300 transform hover:-translate-y-1`}>
+            {darkMode ? <SunIcon /> : <MoonIcon />}
+          </button>
+          <span className="ml-4"></span> 
+        </div>
+
       </div>
 
         <nav className={`bg-${darkMode ? 'black' : 'white'} fixed top-0 left-0 w-64 h-screen z-20 transform ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 md:static md:flex md:items-center md:space-x-8 md:w-auto md:h-auto md:bg-transparent md:translate-x-0`}>
@@ -75,9 +83,7 @@ function Navbar() {
             <a href="https://github.com/Sowndaryakp" target="_blank" rel="noopener noreferrer" className={`text-gray-700 text-2xl transition duration-300 transform hover:-translate-y-1 ${darkMode ? 'text-white' : ''}`} onClick={closeMobileMenu}>
               <FaGithub />
             </a>
-            <button onClick={toggleTheme} className={`text-2xl  ${darkMode ? 'text-gray-300' : 'text-zinc-600'} text-white transition duration-300 transform hover:-translate-y-1`}>
-              {darkMode ? <SunIcon /> : <MoonIcon />}
-            </button>
+           
           </div>
         </nav>
         <button onClick={toggleMobileMenu} className={`${darkMode ? 'text-gray-300' : 'text-zinc-600'} md:hidden text-white-700 text-2xl`}>

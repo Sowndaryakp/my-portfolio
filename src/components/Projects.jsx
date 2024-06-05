@@ -284,11 +284,11 @@ const Projects = () => {
 
   return (
     <div id="projects" className={`py-12 ${darkMode ? 'bg-black' : 'bg-white'}`}>
-      <hr className="-mt-8" />
+      <hr className={`mt-20 mb-0 ${darkMode ? 'border-gray-700' : 'border-gray-300'}`} />
       <div className="p-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className={`text-3xl font-extrabold mb-4 ${darkMode ? 'text-white' : 'text-gray-800'}`}>Projects</h2>
         <p className={`mb-8 ${darkMode ? 'text-gray-300' : 'text-gray-800'}`}>
-        Below are some of the advanced projects I have developed, showcasing my expertise and versatility in Fullstack Web Development. Each project reflects my commitment to creating efficient, scalable, and user-friendly applications.
+          Below are some of the advanced projects I have developed, showcasing my expertise and versatility in Fullstack Web Development. Each project reflects my commitment to creating efficient, scalable, and user-friendly applications.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
@@ -317,7 +317,7 @@ const Projects = () => {
           </div>
         </div>
       )}
-      <hr className="mt-10" />
+       <hr className={`mt-20 ${darkMode ? 'border-gray-700' : 'border-gray-300'}`} />
     </div>
   );
 };

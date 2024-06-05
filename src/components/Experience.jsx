@@ -7,24 +7,14 @@ import cmtiImage from '../assets/images/cmti.png';
 
 const experiences = [
   {
-    title: 'Internship',
-    company: 'Sookshmas E-Learning Pvt. Ltd.',
-    duration: 'Sep 2020 - Oct 2020',
+    title: 'Full Stack Engineer',
+    company: 'CMTI - Central Manufacturing Technology Institute',
+    duration: 'Jun 2023 - Present · 1 yr',
     location: 'Bengaluru, Karnataka, India',
-    description: 'Internship at Sookshmas E-Learning Pvt. Ltd. from Sep 2020 to Oct 2020 in Bengaluru, Karnataka, India.',
-    objective: 'To gain hands-on experience in software development and contribute effectively to the team projects.',
+    description: 'Full Stack Engineer at CMTI - Central Manufacturing Technology Institute from Jun 2023 to Present in Bengaluru, Karnataka, India.',
+    objective: 'To apply my expertise in full stack development and contribute to innovative projects in the manufacturing technology sector.',
     link: '#',
-    logo: sookshmasImage // Specify the company logo
-  },
-  {
-    title: 'Java Full stack software development course',
-    company: 'JSpiders - Training & Development Center',
-    duration: 'Aug 2021 - Feb 2022 · 7 mos',
-    location: 'Bengaluru, Karnataka, India',
-    description: 'Java Full stack software development course at JSpiders - Training & Development Center from Aug 2021 to Feb 2022 in Bengaluru, Karnataka, India.',
-    objective: 'To learn Java full stack development concepts and enhance programming skills for future projects.',
-    link: '#',
-    logo: jspidersImage // Specify the company logo
+    logo: cmtiImage // Specify the company logo
   },
   {
     title: 'Java Developer',
@@ -36,15 +26,26 @@ const experiences = [
     link: '#',
     logo: sapientImage // Specify the company logo
   },
+  
   {
-    title: 'Full Stack Engineer',
-    company: 'CMTI - Central Manufacturing Technology Institute',
-    duration: 'Jun 2023 - Present · 1 yr',
+    title: 'Java Full stack software development course',
+    company: 'JSpiders - Training & Development Center',
+    duration: 'Aug 2021 - Feb 2022 · 7 mos',
     location: 'Bengaluru, Karnataka, India',
-    description: 'Full Stack Engineer at CMTI - Central Manufacturing Technology Institute from Jun 2023 to Present in Bengaluru, Karnataka, India.',
-    objective: 'To apply my expertise in full stack development and contribute to innovative projects in the manufacturing technology sector.',
+    description: 'Java Full stack software development course at JSpiders - Training & Development Center from Aug 2021 to Feb 2022 in Bengaluru, Karnataka, India.',
+    objective: 'To learn Java full stack development concepts and enhance programming skills for future projects.',
     link: '#',
-    logo: cmtiImage // Specify the company logo
+    logo: jspidersImage // Specify the company logo
+  },
+  {
+    title: 'Internship',
+    company: 'Sookshmas E-Learning Pvt. Ltd.',
+    duration: 'Sep 2020 - Oct 2020',
+    location: 'Bengaluru, Karnataka, India',
+    description: 'Internship at Sookshmas E-Learning Pvt. Ltd. from Sep 2020 to Oct 2020 in Bengaluru, Karnataka, India.',
+    objective: 'To gain hands-on experience in software development and contribute effectively to the team projects.',
+    link: '#',
+    logo: sookshmasImage // Specify the company logo
   },
 ];
 
@@ -88,7 +89,7 @@ const Experiences = () => {
           ))}
         </div>
       </div>
-      <hr className="mt-36" />
+      <hr className={`mt-20 ${darkMode ? 'border-gray-700' : 'border-gray-300'}`} />
     </div>
   );
 };

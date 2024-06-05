@@ -38,8 +38,9 @@ const Education = () => {
             </div>
           ))}
         </div>
+        <hr className={`mt-20 ${darkMode ? 'border-gray-700' : 'border-gray-300'}`} />
       </div>
-      <hr className={`mt-20 ${darkMode ? 'border-gray-700' : 'border-gray-300'}`} />
+     
     </div>
   );
 };

@@ -151,7 +151,7 @@ const UserInfo = () => {
         </div>
       </div>
     </div>
-    <hr className="mt-16"/>
+    <hr className={`mt-20 ${darkMode ? 'border-gray-700' : 'border-gray-300'}`} />
   </div>
   
   );
