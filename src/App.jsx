@@ -8,6 +8,7 @@ import Certificates from './components/Certificates';
 import WhatIDo from './components/WhatIDo';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Hobbies from './components/Hobbies';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import { ThemeProvider } from './contexts/ThemeContext';
@@ -30,6 +31,7 @@ function App() {
         <Projects />
         <Certificates />
         <Experience />
+        <Hobbies />
         <ContactMe />
           <Footer />
       </div>

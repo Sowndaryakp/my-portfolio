@@ -66,6 +66,9 @@ function Navbar() {
             <ScrollLink to="experiences" smooth={true} duration={500} className={`text-base font-medium ${darkMode ? 'text-gray-300' : 'text-zinc-500'} hover:text-pink-500`} onClick={closeMobileMenu}>
               Experience
             </ScrollLink>
+            <ScrollLink to="hobbies" smooth={true} duration={500} className={`text-base font-medium ${darkMode ? 'text-gray-300' : 'text-zinc-500'} hover:text-pink-500`} onClick={closeMobileMenu}>
+              Hobbies
+            </ScrollLink>
             <ScrollLink to="contact-me" smooth={true} duration={500} className={`text-base font-medium ${darkMode ? 'text-gray-300' : 'text-zinc-500'} hover:text-pink-500`} onClick={closeMobileMenu}>
               Contact
             </ScrollLink>
