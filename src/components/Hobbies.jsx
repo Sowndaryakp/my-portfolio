@@ -18,6 +18,7 @@ const Hobbies = () => {
         <h2 className={`text-3xl font-extrabold mb-4 ${darkMode ? 'text-white' : 'text-gray-800'}`}>Hobbies</h2>
         <p className={`mb-8 ${darkMode ? 'text-gray-300' : 'text-gray-800'}`}>
           {/* Here are some of the experiences I have worked on: */}
+            {/* Here are some of the experiences I have worked on: */}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {/* Card 1: Rubik's Cube */}
