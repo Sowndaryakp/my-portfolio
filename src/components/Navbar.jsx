@@ -76,7 +76,7 @@ function Navbar() {
               Vuejs Portfolio
             </ScrollLink> */}
           </div>
-          <div className="flex items-center gap-4 mt-80 md:mt-0">
+          <div className="flex items-center ml-4 gap-4 mt-80 md:mt-0">
             <a href="https://www.linkedin.com/in/sowndarya-k-p/" target="_blank" rel="noopener noreferrer" className={`text-gray-700 text-2xl transition duration-300 transform hover:-translate-y-1 ${darkMode ? 'text-white' : ''}`} onClick={closeMobileMenu}>
               <FaLinkedin />
             </a>
