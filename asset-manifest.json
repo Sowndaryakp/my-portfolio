@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.115187f5.css",
-    "main.js": "/my-portfolio/static/js/main.6f5a322f.js",
+    "main.css": "/my-portfolio/static/css/main.7234e9f9.css",
+    "main.js": "/my-portfolio/static/js/main.8edaaf1b.js",
     "static/js/453.e3dbaf0f.chunk.js": "/my-portfolio/static/js/453.e3dbaf0f.chunk.js",
     "static/media/smartMetrology1.png": "/my-portfolio/static/media/smartMetrology1.ca8b606b3f39e292195c.png",
     "static/media/todoreact.png": "/my-portfolio/static/media/todoreact.c2667c73d9d4198e5421.png",
@@ -26,12 +26,12 @@
     "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.115187f5.css.map": "/my-portfolio/static/css/main.115187f5.css.map",
-    "main.6f5a322f.js.map": "/my-portfolio/static/js/main.6f5a322f.js.map",
+    "main.7234e9f9.css.map": "/my-portfolio/static/css/main.7234e9f9.css.map",
+    "main.8edaaf1b.js.map": "/my-portfolio/static/js/main.8edaaf1b.js.map",
     "453.e3dbaf0f.chunk.js.map": "/my-portfolio/static/js/453.e3dbaf0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.115187f5.css",
-    "static/js/main.6f5a322f.js"
+    "static/css/main.7234e9f9.css",
+    "static/js/main.8edaaf1b.js"
   ]
 }
