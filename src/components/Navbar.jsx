@@ -47,7 +47,7 @@ function Navbar() {
               {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
             </button>
           </div>
-          <div className="flex flex-col space-y-4 mt-4 md:mt-0 md:flex-row md:space-y-0 md:space-x-6 ml-4">
+          <div className="flex flex-col space-y-4 mt-4 md:mt-0 md:flex-row md:space-y-0 md:space-x-6 ml-4 cursor-pointer">
             <ScrollLink to="user-info" smooth={true} duration={500} className={`text-base font-medium ${darkMode ? 'text-gray-300' : 'text-zinc-500'} hover:text-pink-500`} onClick={closeMobileMenu}>
               About
             </ScrollLink>

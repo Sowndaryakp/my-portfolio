@@ -7,7 +7,7 @@ import gerbindia1 from '../assets/images/gerbindia1.png';
 import inventoryManagement1 from '../assets/images/inventoryManagement1.png';
 import reportTemplate1 from '../assets/images/reportTemplate1.png';
 import smartMetrology1 from '../assets/images/smartMetrology1.png';
-import commingsoon from '../assets/images/commingsoon.jpeg';
+import commingsoon from '../assets/images/commingSoon2.jpg';
 
 const projects = [
   {

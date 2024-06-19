@@ -4,7 +4,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import contactMeImage from '../assets/images/contactMeImage.png'; // Import the new image
+import womenIllustration from '../assets/images/women_illustration.jpg'; // Import your illustration image
 
 function ContactMe() {
   const { darkMode } = useTheme();
@@ -45,9 +45,9 @@ function ContactMe() {
                     type="text" 
                     id="name" 
                     name="user_name" 
-                    placeholder="Name" 
+                    placeholder="Name *" 
                     {...register('user_name', { required: true })}
-                    className={`mt-1 p-2 border rounded-md w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
+                    className={`mt-1 p-2 border rounded-md w-full focus:outline-none ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
                   />
                   {errors.user_name && <p className="text-red-600">Name is required</p>}
                 </div>
@@ -56,9 +56,9 @@ function ContactMe() {
                     type="email" 
                     id="email" 
                     name="user_email" 
-                    placeholder="Email" 
+                    placeholder="Email *" 
                     {...register('user_email', { required: true, pattern: /^\S+@\S+$/i })}
-                    className={`mt-1 p-2 border rounded-md w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
+                    className={`mt-1 p-2 border rounded-md w-full focus:outline-none ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
                   />
                   {errors.user_email && <p className="text-red-600">Valid email is required</p>}
                 </div>
@@ -70,17 +70,17 @@ function ContactMe() {
                   name="user_phone" 
                   placeholder="Phone (optional)" 
                   {...register('user_phone')}
-                  className={`mt-1 p-2 border rounded-md w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
+                  className={`mt-1 p-2 border rounded-md w-full focus:outline-none ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
                 />
               </div>
               <div className="mb-4">
                 <textarea 
                   id="message" 
                   name="message" 
-                  placeholder="Message" 
+                  placeholder="Message *" 
                   rows="4" 
                   {...register('message', { required: true })}
-                  className={`mt-1 p-2 border rounded-md w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
+                  className={`mt-1 p-2 border rounded-md w-full focus:outline-none ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
                 ></textarea>
                 {errors.message && <p className="text-red-600">Message is required</p>}
               </div>
@@ -91,8 +91,8 @@ function ContactMe() {
                 Submit
               </button>
             </form>
-            <div className="w-full md:w-1/3 flex justify-center items-start mt-6 md:mt-0">
-              <img src={contactMeImage} alt="Contact Me Illustration" className="w-80 h-auto ml-6 -mt-10" />
+            <div className="w-full md:w-1/3 flex justify-center items-center">
+              <img src={womenIllustration} alt="Woman Illustration" className="w-80 h-auto" />
             </div>
           </div>
         </div>
