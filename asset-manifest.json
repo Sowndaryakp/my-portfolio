@@ -1,32 +1,37 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f3569117.css",
-    "main.js": "/my-portfolio/static/js/main.9bfc0905.js",
+    "main.css": "/my-portfolio/static/css/main.115187f5.css",
+    "main.js": "/my-portfolio/static/js/main.6f5a322f.js",
     "static/js/453.e3dbaf0f.chunk.js": "/my-portfolio/static/js/453.e3dbaf0f.chunk.js",
     "static/media/smartMetrology1.png": "/my-portfolio/static/media/smartMetrology1.ca8b606b3f39e292195c.png",
     "static/media/todoreact.png": "/my-portfolio/static/media/todoreact.c2667c73d9d4198e5421.png",
+    "static/media/travel.jpg": "/my-portfolio/static/media/travel.7502ecb6bb5d1f3d049b.jpg",
     "static/media/sowndaryakpportfolio.png": "/my-portfolio/static/media/sowndaryakpportfolio.95459df6382e609584bf.png",
     "static/media/fa-solid-900.ttf": "/my-portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/book.jpg": "/my-portfolio/static/media/book.c659fc103a8494c4e1f6.jpg",
     "static/media/gerbindia1.png": "/my-portfolio/static/media/gerbindia1.69d9804e50a1f1a362e3.png",
+    "static/media/musicc.jpg": "/my-portfolio/static/media/musicc.5405593cf629d728da61.jpg",
     "static/media/fa-brands-400.ttf": "/my-portfolio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/contactMeImage.png": "/my-portfolio/static/media/contactMeImage.f3b6bf34bac98be92ad3.png",
     "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
     "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
     "static/media/inventoryManagement1.png": "/my-portfolio/static/media/inventoryManagement1.54ec8094179676a294cc.png",
     "static/media/sowndaryakp.jpg": "/my-portfolio/static/media/sowndaryakp.1e9321819d334bace93c.jpg",
     "static/media/fa-regular-400.ttf": "/my-portfolio/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/rr.jpg": "/my-portfolio/static/media/rr.e9c9b2e45959c34ee643.jpg",
     "static/media/soni.png": "/my-portfolio/static/media/soni.05b67399db143feb2067.png",
     "static/media/reportTemplate1.png": "/my-portfolio/static/media/reportTemplate1.39a3bb141cdc20756590.png",
     "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/commingSoon2.jpg": "/my-portfolio/static/media/commingSoon2.e346ff211513968900ca.jpg",
     "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
-    "static/media/commingsoon.jpeg": "/my-portfolio/static/media/commingsoon.6a4d256b826550a3abbd.jpeg",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.f3569117.css.map": "/my-portfolio/static/css/main.f3569117.css.map",
-    "main.9bfc0905.js.map": "/my-portfolio/static/js/main.9bfc0905.js.map",
+    "main.115187f5.css.map": "/my-portfolio/static/css/main.115187f5.css.map",
+    "main.6f5a322f.js.map": "/my-portfolio/static/js/main.6f5a322f.js.map",
     "453.e3dbaf0f.chunk.js.map": "/my-portfolio/static/js/453.e3dbaf0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3569117.css",
-    "static/js/main.9bfc0905.js"
+    "static/css/main.115187f5.css",
+    "static/js/main.6f5a322f.js"
   ]
 }
