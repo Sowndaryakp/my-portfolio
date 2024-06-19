@@ -47,7 +47,7 @@ function ContactMe() {
                     name="user_name" 
                     placeholder="Name" 
                     {...register('user_name', { required: true })}
-                    className={`mt-1 p-2 border rounded-md w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
+                    className={`mt-1 p-2 border rounded-lg w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
                   />
                   {errors.user_name && <p className="text-red-600">Name is required</p>}
                 </div>
@@ -58,7 +58,7 @@ function ContactMe() {
                     name="user_email" 
                     placeholder="Email" 
                     {...register('user_email', { required: true, pattern: /^\S+@\S+$/i })}
-                    className={`mt-1 p-2 border rounded-md w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
+                    className={`mt-1 p-2 border rounded-lg w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
                   />
                   {errors.user_email && <p className="text-red-600">Valid email is required</p>}
                 </div>
@@ -70,7 +70,7 @@ function ContactMe() {
                   name="user_phone" 
                   placeholder="Phone (optional)" 
                   {...register('user_phone')}
-                  className={`mt-1 p-2 border rounded-md w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
+                  className={`mt-1 p-2 border rounded-lg w-full focus:outline-none focus:border-charm-600 ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'border-gray-300'}`}
                 />
               </div>
               <div className="mb-4">
